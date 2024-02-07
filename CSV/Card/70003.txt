@@ -291,7 +291,7 @@ default
     {
         if,乱数,==,1
         {
-            セリフ,I activate my spell card {使用カード}! It lets me add 1 Water Attribute monster with the same level as one I have on the field.   
+            セリフ,I activate my spell card {使用カード}! It lets me add 1 Water Element monster with the same level as one I have on the field.   
         }    
         if,乱数,==,2
         {
