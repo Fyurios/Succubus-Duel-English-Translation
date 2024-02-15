@@ -1,7 +1,7 @@
 default
 @初期設定
-&カード名,秘境探検家
-&効果テキスト,[1].相手フィールド上にレベル5以上のモンスターしか存在しない場合、このカードは相手プレイヤーに直接攻撃できる。\n[2]相手フィールド上の魔法トラップゾーンにカードが３枚以上裏向きで伏せられている場合、このカードが通常召喚に成功した時発動する。カードを2枚ドローする。
+&カード名,Explorer of the Unknown
+&効果テキスト,[1]. This card may directly attack the opponent player if all monsters on their side of the field are level 5 or higher.\n[2].If there are 3 or more cards face down on the opponent's Spell/Trap Zone; draw 2 cards when Explorer of the Unknown is successfully normal summoned.
 &ハード効果テキスト,
 &イージー効果テキスト,
 &フレーバーテキスト,
