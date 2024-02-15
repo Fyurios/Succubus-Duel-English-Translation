@@ -549,7 +549,7 @@ default
         }else{
             if,乱数,==,1
             {
-                セリフ,I'm gooing to turn you into my kiss-slave❤ *Smoochhh❤*            
+                セリフ,I'm going to turn you into my kiss-slave❤ *Smoochhh❤*            
             }
             if,乱数,==,2
             {
@@ -576,130 +576,134 @@ default
     画像,&カード画像
     if,命乞い回数,==,1
     {
-        セリフ,ううっ…。人間の男のくせに思った以上に強いです…。
+        セリフ,Uhhh... You're stronger than I expected a man to be...
         if,相手,==,相手プレイヤー,
         {
-            セリフ,たいして女の子に慣れてもなさそうなのに…。カードマスターさん、あなたのことを見くびっていたみたいです。                
+            セリフ,You don't seem used to girls at all... Card Master-san; I definitely underestimated you.               
         }else{
-            セリフ,たいして女の子に慣れてもなさそうなのに…。主人との絆、というやつでしょうか。たいしたものですね。                
+            セリフ,You don't seem used to girls though. Maybe it's because you have a close bond with your Master.            
         }
-        セリフ,でも、それもここまで。えいっ❤
+        セリフ,But...; That's as far as you go~❤
         画像,&足コキ,1                        
-        セリフ,抵抗なんてさせません。ドギツイ快楽で、全部奪ってあげます❤                    
+        セリフ,I won't let you resist anymore. I'm going to steal everything away from you with overwhelming pleasure~❤                    
         話者変更,相手
-        セリフ,あううっ…❤足に飲みこまれてっ…❤
+        セリフ,Ohhhh...❤ Your foot is swallowing me...❤
         話者変更,自分
-        セリフ,わたしのスライムボディを使ったとっておきの踏みつけ足コキです❤チンポを全部包まれて、とっても気持ちいいでしょう？
-        セリフ,このまま何回も上下に往復させてあげます。チンポを犯される快感、たっぷり楽しんでください。うふふふ❤
-        選択肢生成,彼女を振り払い、とどめを刺した,あまりの快感に体から力が抜けてしまった
+        セリフ,This is my special trampling footjob that makes use of my body being made of slime❤ It feels amazing to have my foot consume your penis; doesn't it?
+        セリフ,Please throughly enjoy being raped by me as I move my foot up and down your hard penis~❤
+        選択肢生成,Shake her off and deal the finishing blow,Remain frozen from the intense pleasure of her footjob
         if,選択肢,==,1,
         {
-            セリフ,きゃあっ、そんなあの状態から起きれるなんて・・・。
+            セリフ,Kyahhh; No way... You managed to break out of my footjob...
             命乞い失敗
             イベント終了
         }            
-        セリフ,さあ、始めますよ。ほら！
+        セリフ,Now; here I go. Hora!
         攻撃エフェクト変更,&&足コキエフェクト       
         状態異常付与,相手,寸止め                        
         イベントダメージ,相手,自分攻撃力*4+891
         話者変更,相手
-        セリフ,はひぃっ…❤❤
+        セリフ,Ahiiii...❤❤
         話者変更,自分
-        セリフ,ふふ、気持ちいいでしょう？わたしに足コキされて、１分耐えた人はいないんです。           
+        セリフ,Fufufu; doesn't this feel amazing? No man has ever lasted a single minute against this footjob of mine.           
         イベントダメージ,相手,自分攻撃力*4+1221
         イベントダメージ,相手,自分攻撃力*4+1334         
         話者変更,相手
-        セリフ,あがぁっ…❤あひっ❤あううっ❤
+        セリフ,Aghhh...❤ Ahhhiiii❤ Ahhhhhhhh❤
         話者変更,自分
-        セリフ,このスライムには人間を興奮させる成分が入ってます。そんなものでチンポを丸ごといじめられたら、当然の結果ですよね❤
-        セリフ,こうやって、足で踏みつけるたびにっ、んふふ、とんでもない喘ぎ声が漏れちゃってます♪
-        セリフ,ほら❤ほら❤ほら❤どうしたんですか？さっきまでの威勢はどこにいったんですか？
+        セリフ,My slime contains a potent aphrodisiac in it that drives men mad.
+        セリフ,It's no wonder that you've ended up like this since I'm bullying your entire penis with my slime~❤
+        セリフ,Nfufu; you let out such incredible moans each time I step on you~♪
+        セリフ,Hora❤ Hoora❤ Hooora❤ What's the matter? Where did all the strength you had before go?
         イベントダメージ,相手,自分攻撃力*4+1567
         イベントダメージ,相手,自分攻撃力*4+1649
         話者変更,相手
-        セリフ,ああっ…❤きもちいいっ、きもちいいっ・・❤
-        セリフ,もっと、踏んでぇ・・・❤あああっ・・❤
+        セリフ,Ahhhh...❤ This feels so amazing...❤
+        セリフ,More... Step on me more...❤ Ohhhh...❤
         話者変更,自分
-        セリフ,あはは❤とっても素直になれましたね❤それでこそ人間ですよ。
-        セリフ,サキュバスに気持ちよくしてもらえるなら、戦いのことなんてどうでもよくなっちゃう。おちんちんを支配してあげれば、頭の中も全部支配されちゃう…❤
-        セリフ,くすくす❤本当に下等生物です❤
-        セリフ,ほら、パンパンパンって音がするぐらいに、強く踏みつけてあげます。さっさとイっちゃってください。変態❤            
+        セリフ,Ahaha❤ You're finally being honest now❤ You don't care about the battle anymore as long as a succubus like myself can make you feel this good.
+        セリフ,All I have to do to control your mind is dominate this penis... That's an inherit aspect of being human...❤
+        セリフ,Hehehe❤ Humans are such inferior lifeforms❤
+        セリフ,Hoora; I'll step on you so strongly that the sounds of my slimy flesh slamming against you fills the air❤
+        セリフ,Please hurry up and cum for me... You pervert❤          
         イベントダメージ,相手,自分攻撃力*5+1891
         イベントダメージ,相手,自分攻撃力*5+1997                                    
         話者変更,相手                  
-        セリフ,あっ、あああっ…❤            
+        セリフ,Ohhhh; aaaahhhhhhhhh...❤            
         とどめダメージ,相手,自分攻撃力*5+1533                                    
         フラッシュ,白
         イベント回復,自分,自分最大HP            
         画像,&立ち絵射精脚,1
         話者変更,自分                        
-        セリフ,ふふふ❤すごい量の射精です。新鮮なエナジーがこんなにたくさん・・・♪        
-        セリフ,わたしの足の中に射精できてよかったですね？おかげで体力も全回復。男の人って本当にチョロいです❤            
+        セリフ,Fufufu❤ You came so vigorously. I can taste how full of energy your seed is~♪        
+        セリフ,Are you happy that you got to cum inside my foot? Your seed helped me fully recover. Men are such simple creatures~❤            
     }else{
-        セリフ,くっ…。またですか。思った以上に強い人が多いですね…。
-        セリフ,でも、あなたもさっきの人と同じ目に合うだけの話です。えいっ❤
+        セリフ,Kuhhh... Again? I didn't expect to face this many strong opponents.
+        セリフ,But you're now in the same situation as the previous person I did this too. Take this~❤
         画像,&足コキ,1                        
-        セリフ,抵抗なんてさせません。ドギツイ快楽で、全部奪ってあげます❤                    
+        セリフ,I'm not going to let you resist. I'm going to steal everything away from you with pleasure~❤                    
         話者変更,相手
-        セリフ,あひぃっ…❤足に飲みこまれてっ…❤
+        セリフ,Ohhhh...❤ Your foot is swallowing me...❤
         話者変更,自分
-        セリフ,わたしのスライムボディを使ったとっておきの踏みつけ足コキです❤チンポを全部包まれて、とっても気持ちいいでしょう？
-        セリフ,あなたが戦いながらちらちらと、わたしの足を見ていたこと気づいていましたよ。
-        セリフ,仲間がさっきされたことを、自分もされるのだろうかって、期待してたんじゃないですか？
-        セリフ,え？違うって？ふふふ、そんなことはチンポに聞けばわかります。このギンギンに勃起したチンポ、どれだけわたしの足コキに耐えられるでしょうかね❤
-        セリフ,何回も足を上下に往復させてチンポをしごく。ただそれだけなのに、さっきの人はわたしに屈服しておねだりしちゃいました。
-        セリフ,あなたも、きっと同じ❤。さあ、チンポを犯される快感、たっぷり楽しんでくださいね。うふふふ❤
-        選択肢生成,彼女を振り払い、とどめを刺した,あまりの快感に体から力が抜けてしまった
+        セリフ,This is my special trampling footjob that makes use of my body being made of slime❤ It feels amazing to have my foot consume your penis; doesn't it?
+        セリフ,I noticed you were glancing at my feet while we were fighting.
+        セリフ,Were you secretly hoping that I'd do the same thing to you that I did to your poor companion?
+        セリフ,Huh? That isn't it? Fufufu; how about I ask this penis instead? I wonder how long this hard member can withstand my footjob❤
+        セリフ,All I did was stomp my leg up and down for a bit while swallowing your companion's penis with my foot...
+        セリフ,And yet that was enough for your companion to give in and beg me to cum...
+        セリフ,You'll be no different❤ Now; please throughly enjoy the sensation of my foot violating your penis❤
+        選択肢生成,Shake her off and deal the finishing blow,Remain frozen from the intense pleasure of her footjob
         if,選択肢,==,1,
         {
-            セリフ,きゃあっ、そんなあの状態から起きれるなんて・・・。
+            セリフ,Kyahhh; No way... You managed to break out of my footjob...
             命乞い失敗            
             イベント終了
         }            
-        セリフ,さあ、始めますよ。ほら！                        
+        セリフ,Now; here I go. Hora!                     
         状態異常付与,相手,寸止め
         攻撃エフェクト変更,&&足コキエフェクト
         イベントダメージ,相手,自分攻撃力*4+891
         話者変更,相手
-        セリフ,はひぃっ…❤❤
+        セリフ,Ahiiii...❤❤
         話者変更,自分
-        セリフ,ふふ、気持ちいいでしょう？わたしに足コキされて、１分耐えた人はいないんです。           
+        セリフ,Fufufu; doesn't this feel amazing? No man has ever lasted a single minute against this footjob of mine.              
         イベントダメージ,相手,自分攻撃力*4+1221
         イベントダメージ,相手,自分攻撃力*4+1334         
         話者変更,相手
-        セリフ,あがぁっ…❤あひっ❤あううっ❤
+        セリフ,Aghhh...❤ Ahhhiiii❤ Ahhhhhhhh❤
         話者変更,自分
-        セリフ,おまんこでもないただの足の裏ですよ？それなのにちょっといじめてあげたら、情けなく射精しちゃう男の人ばっかり❤
-        セリフ,足で踏みつけるたびに、んふふ、とんでもない喘ぎ声が漏れちゃってます♪さっきの人よりも声、大きいんじゃないですか？
-        セリフ,ほら❤ほら❤ほら❤頑張ってわたしを追い詰めたのだから、少しは抵抗してくださいよ❤
+        セリフ,I'm not even using my pussy... All I have to do is tease a man's penis a bit with the sole of my feet and most of them cum pathetically❤
+        セリフ,Nfufu; you let out such incredible moans each time I step on you~♪ You're even louder than the last man I did this too.
+        セリフ,Hora❤ Hoora❤ Hooora❤ You did everything you could to push me to my limits; so please try to resist my footjob a bit~❤
         イベントダメージ,相手,自分攻撃力*4+1567
         イベントダメージ,相手,自分攻撃力*4+1649
         話者変更,相手
-        セリフ,ああっ…❤きもちいいっ、きもちいいっ・・❤
-        セリフ,もっと、踏んでぇ・・・❤あああっ・・❤
+        セリフ,Ahhhh...❤ This feels so amazing...❤
+        セリフ,More... Step on me more...❤ Ohhhh...❤
         話者変更,自分
-        セリフ,あはは❤とっても素直になれましたね❤あなたも、さっきの人もみんなチョロすぎです。
-        セリフ,戦いのことなんて、サキュバスに気持ちよくしてもらえるなら、どうでもよくなっちゃう。おちんちんを支配してあげれば、頭の中も全部支配されちゃう。
-        セリフ,本当に下等生物ですね❤このマゾ男❤敵の女の子に足蹴にされて、興奮しているんだから、救いようがありません。
-        セリフ,ほら、とどめですよ。パンパンパンって音がするぐらいに、強く踏みつけてあげます。さっさとイっちゃってください。変態❤            
+        セリフ,Ahaha❤ You're finally being honest now❤ Both you and everyone else I've done this too are way too easy to deal with...
+        セリフ,You don't care about the battle as long as a succubus like myself can make you feel this good.
+        セリフ,All I have to do to control your mind is dominate this penis...
+        セリフ,Human men are such inferior beings❤ You masochist❤ There's no saving you. You're getting excited by being kicked by your opponent...
+        セリフ,Hora; I'll finish you off now. I'll step on you so strongly that the sounds of my slimy flesh slamming against you fills the air❤              セリフ,Please hurry up and cum for me... You pervert❤        
         イベントダメージ,相手,自分攻撃力*5+1891
         イベントダメージ,相手,自分攻撃力*5+1997                                    
         話者変更,相手            
-        セリフ,あっ、あああっ…❤            
+        セリフ,Ohhhh; aaaahhhhhhhhh...❤            
         とどめダメージ,相手,自分攻撃力*5+1533                                    
         フラッシュ,白
         イベント回復,自分,自分最大HP
         画像,&立ち絵射精脚,1
         話者変更,自分                        
-        セリフ,ふふふ❤すごい量の射精です。新鮮なエナジーがこんなにたくさん・・・♪        
-        セリフ,わたしの足の中に射精できてよかったですね？おかげで体力も全回復。男の人って本当にチョロいです❤            
+        セリフ,Fufufu❤ You came so vigorously. I can taste how full of energy your seed is~♪         
+        セリフ,Are you happy that you got to cum inside my foot? Your seed helped me fully recover. Men are such simple creatures~❤             
     }
   
 
 @オナニー
     攻撃タイプ変更,キス             
     話者変更,相手
-    セリフ,ううっ・・・。
+    セリフ,Uhhh...
     画像,&カード画像
     話者変更,自分
     if,相手,==,相手プレイヤー,
@@ -708,52 +712,53 @@ default
         if,現在ターン,==,1
         if,$ch2_kiss,==,0
         {
-            セリフ,あは、こっち来てくださいって言ったら、ほんとに来ちゃうんだぁ❤そんなにキスしてほしかったんですか？
-            セリフ,手も我慢できなくておちんちんを触っちゃっている。くすくす❤1ターン目で誘惑に負けるとか護衛失格ですね❤
+            セリフ,Aha; you actually came like I told you to❤ Did you want to be kissed by me that much?
+            セリフ,Tehehe. You couldn't hold back from touching yourself either❤ You're a failure of an escort; giving into temptation on the first turn like this❤
         }else{
             if,オナニー回数,==,1
             {
-                セリフ,マスターさん自らこっちに来たと思ったら、ふふ、オナニー始めちゃうんですか？
+                セリフ,And Master-san finally came to me. Fufu; are you going to start masturbating?
             }else{
-                セリフ,あらあら❤今度はマスターさんが自分からオナニーし始めちゃうんですか？                           
+                セリフ,Ara ara❤ Master-san; are you going to start masturbating on your own this time?
             }            
             if,現在ターン,<,4
             {            
-                セリフ,戦い始めたばかりなのに、簡単にムラムラに負けちゃいましたね❤本当に童貞さんってチョロい❤くすくす❤                
+                セリフ,You gave in to your lust so soon after we started fighting~❤ Virgins are so adorable❤ Tehehe❤                
                 if,現在ターン,==,2
                 if,$ch2_kiss,==,1
                 if,相手プレイヤー行動回数,==,0
                 {
-                    セリフ,結局カードを１枚も出さないまま負けちゃうんですね❤キスだけでメロメロになって、カードマスター失格です❤  
+                    セリフ,You lost without playing a single card~❤ Falling head over heels from my kiss alone... you're a failure of a Card Master❤  
                 }
             }else{
                 if,現在ターン,>,8
                 {
-                    セリフ,結構頑張ったのに、最後は自分からオナニー❤ふふ、エッチなこといっぱい見すぎて、我慢できなくなっちゃったんですね。                            
+                    セリフ,You held back for so long... But in the end; you still started masturbating❤ Fufu; all the lewd things you saw were too much for you to take.    
                 }else{                
-                    セリフ,本当に童貞さんなんですね❤ちょっとキスで誘惑されただけで、自分からシコシコはじめちゃうなんて・・・❤                                
+                    セリフ,You're a total virgin❤ All I had to do was kiss you a bit and you started stroking yourself~❤                                
                 }
             }
         }
-        セリフ,ほら、そんなかわいらしいお兄さんに、ちょっとしたオカズを提供してあげます。
-        セリフ,わたしの唇をお兄さんの唇ギリギリに近づけて、んーっちゅ・・・❤
+        セリフ,Hora; I'm going help Onii-san masturbate...
+        セリフ,I'll bring my lips close to Onii-san's and... *Smooch❤*
         エフェクト,&キスエフェクト,相手
         話者変更,相手            
-        セリフ,あっ、ああっ・・・❤            
+        セリフ,A-Ahhhh...❤            
         話者変更,自分
-        セリフ,うふふ、もう少しでキスできそうでしたね。でも、ざんねん。ほんとのキスはまだおあずけ…❤今はキスをするまねっこです❤
-        セリフ,唇と唇がくっつきそうな距離で、何回もちゅって唇を突き出してあげます❤
-        セリフ,お兄さんからキスしちゃダメですからね。動かしていいのはおちんちんを触っている自分のおててだけ。ほら、んっちゅっ❤ちゅ❤ちゅっ・・・❤
+        セリフ,Ufufu; you thought I was going to kiss you. Too bad, it's not time for that yet❤
+        セリフ,You'll have to make do with me keeping my lips a few centimeters away from you~❤
+        セリフ,I'll blow kisses at you and again while keeping our lips ever so slightly part~❤
+        セリフ,Onii-san isn't allowed to kiss me. The only part of your body you may move is that hand touching your penis. Hooora❤ *Smooch❤ Kiss❤ Smooochhh...❤*
         エフェクト,&キスエフェクト,相手 
         話者変更,相手
-        セリフ,はひぃっ・・・❤
+        セリフ,Ahiii...❤
         話者変更,自分                
-        セリフ,シコシコ早くなっちゃいますね。もっとわたしの唇の感触、妄想していいですよ。んーっちゅっ❤ちゅ❤ちゅっ・・・❤        
+        セリフ,Ahh; your hand is speeding up. Go ahead; fantasy about my lips more. *Smooooch...❤ Kiss...❤ Smooch❤*
         エフェクト,&キスエフェクト,相手 
         話者変更,相手
-        セリフ,あうっ、ああっ、お願い、キスしてぇ・・・❤
+        セリフ,Ahhh... Ohhh... Please... Kiss me...❤
         話者変更,自分                
-        セリフ,くすくす❤間抜けなお顔でおねだりしちゃうんですか？                            
+        セリフ,Tehehe❤Are you actually begging me with that foolish look on your face?                            
         セリフ,敵の女の子にキスのまねごとで焦らされて、かっこわるーく「キスしてぇ」っておねだり❤すごく滑稽ですね❤                
         セリフ,そんなマゾで変態なお兄さんにキスなんてもったいないかも・・・。            
         セリフ,ほら、唇の前でふぅー・・・❤わたしの甘い息たくさん吸ってください。            
